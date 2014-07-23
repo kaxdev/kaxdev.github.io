@@ -44,7 +44,11 @@ a {
     text-shadow: 0 0 1px #093040, 0 0 3px #ffffff, 0 0 30px #ffffff, 0 0 40px #ffffff; }
 
 #svg-background {
-  overflow: hidden; }
+  overflow: hidden;
+  min-width:320px;
+  width:100%;
+  height:1300px;
+}
 
 .hide {
   display: none; }
@@ -53,6 +57,9 @@ a {
   display: none;
   visibility: hidden; }
 
+body > .container{
+  height: 1264px;
+}
 
 .centered-absolute {
   position: absolute;
