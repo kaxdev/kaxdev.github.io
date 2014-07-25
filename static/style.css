@@ -166,9 +166,29 @@ body > .container{
   color: #ffa3a3;
 }
 
+#wrapper-assets {
+  -ms-transform: translate(1000px,180px) scale(1.7) ;
+  -moz-transform: translate(1000px,180px) scale(1.7);
+  -webkit-transform: translate(1000px,180px) scale(1.7);
+  transform: translate(1000px,180px) scale(1.7);
+}
+
 @media only screen
 and (max-width : 720px) {
   #wrapper-assets {
     display: none;
   }
+}
+
+
+@media only screen
+and (max-width : 1024px) {
+
+  #wrapper-assets {
+    -ms-transform: translate(900px,300px) scale(1.4) ;
+    -moz-transform: translate(900px,300px) scale(1.4);
+    -webkit-transform: translate(900px,300px) scale(1.4);
+    transform: translate(900px,300px) scale(1.4);
+  }
+
 }
