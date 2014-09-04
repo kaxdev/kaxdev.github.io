@@ -1,48 +1,250 @@
 <!DOCTYPE html>
+
 <html>
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-    <title>Kax - Don't repeat yourself. Do Great Work</title>
-    <link rel="icon" href="favicon.png" />
-    <link href='http://fonts.googleapis.com/css?family=Nobile:400,700italic|Exo+2:400,100' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="/static/style.css">
+<link href='http://fonts.googleapis.com/css?family=Raleway:400,200,300,600' rel='stylesheet'>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kaxapp - Fast and Secured Communication</title>
+<meta name="description" content="Kax is application which delivers high speed and most secured chat.">
+<meta name="author" content="Ninjaas">
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/font-awesome.min.css">
+<link rel="stylesheet" href="css/slick.css">
+<link rel="stylesheet" href="css/main.css">
+
+<!--[if gte IE 9]>
+<link rel="stylesheet" href="css/ie.css">
+<![endif]-->
+
 </head>
-<body>
-    <div class="container">
-        <svg id="svg-background" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1100 588" preserveAspectRatio="xMinYMin">
-            <defs>
-                <clipPath id="handClip">
-                    <rect x="0" y="0" width="1050" height="1264"></rect>
-                </clipPath>
-            </defs>
-            <g id="background-wrapper">
-                <image id="img-png" xlink:href="/static/background.jpg" width="100%" height="717" x="-100" y="-60" transform="scale(1.2)"></image>
-            </g>
-            <g id="wrapper-assets">
-                <image id="img-png" width="575" height="400" x="-795" y="110" transform="scale(0.5)" xlink:href="static/talk.png"></image>
-                <g class="phone" transform="rotate(90)" opacity="0.7" style="fill:none;stroke: #FFF;stroke-miterlimit: 55;">
-                    <path d="M73.991,110.75v286.5h162.5v-286.5H73.991z"></path>
-                    <path d="M155.491,78.959c2.137,0,3.875-1.738,3.875-3.875  s-1.738-3.875-3.875-3.875c-2.136,0-3.875,1.738-3.875,3.875S153.355,78.959,155.491,78.959z M155.491,71.959  c1.723,0,3.125,1.402,3.125,3.125s-1.402,3.125-3.125,3.125c-1.723,0-3.125-1.402-3.125-3.125S153.769,71.959,155.491,71.959z   M155.626,406.503c-9.657,0-17.513,7.856-17.513,17.513c0,9.657,7.856,17.514,17.513,17.514s17.513-7.856,17.513-17.514  C173.139,414.359,165.283,406.503,155.626,406.503z M155.626,440.779c-9.243,0-16.763-7.52-16.763-16.764  c0-9.243,7.52-16.763,16.763-16.763s16.763,7.52,16.763,16.763C172.389,433.259,164.869,440.779,155.626,440.779z M142.262,93.78  h26.501c2.07,0,3.75-1.679,3.75-3.75s-1.68-3.75-3.75-3.75h-26.501c-2.071,0-3.75,1.679-3.75,3.75S140.191,93.78,142.262,93.78z   M219.508,55.521h-1.434v-0.854c0-0.552-0.447-1-1-1h-28c-0.552,0-1,0.448-1,1v0.854H86.489c-12.936,0-25.248,12.312-25.248,27.5  v28.228h-0.833c-0.552,0-1,0.448-1,1v14.167c0,0.552,0.448,1,1,1h0.833v20.5h-0.833c-0.552,0-1,0.448-1,1v11.417  c0,0.552,0.448,1,1,1h0.833v19.749h-0.833c-0.552,0-1,0.448-1,1V193.5c0,0.552,0.448,1,1,1h0.833v230.513  c0,15.188,12.312,27.5,27.5,27.5H221.76c15.188,0,27.5-12.312,27.5-27.5V83.021C249.26,67.833,236.947,55.521,219.508,55.521z   M158.825,417.333h-6.167c-2.071,0-3.75,1.679-3.75,3.75v6.167c0,2.07,1.679,3.75,3.75,3.75h6.167c2.071,0,3.75-1.68,3.75-3.75  v-6.167C162.575,419.012,160.896,417.333,158.825,417.333z" stroke-dasharray="3332.2666015625, 3332.2666015625" stroke-dashoffset="0"></path>
-                </g>
-            </g>
-        </svg>
-        <div id="wrapper" class="centered-absolute">
-            <!-- <img class="hand svg-image" src="svg/hand.svg"></img> -->
-            <h1 class="logo">
-              <img src="/static/logo.svg" width="60px" alt=""> Kax</h1>
-            <div class="message txt-shadow animated fadeInDown">
-                <p>Don't repeat yourself. Do Great Work</p>
-                <form action="//kax.us8.list-manage.com/subscribe/post?u=b9e4b06a5fb2aaa495db68f35&amp;id=f856c7124c" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-                <input type="email" value="" name="EMAIL"  placeholder="Your Email"class="required email lrg-text-inpt txt-shadow" id="mce-EMAIL">
-                	<input type="text" value="" name="NAME" placeholder="Your Name" class="required email lrg-text-inpt txt-shadow" id="mce-NAME">
-                	<div id="mce-responses" class="clear">
-                		<div class="response" id="mce-error-response" style="display:none"></div>
-                		<div class="response" id="mce-success-response" style="display:none"></div>
-                	</div>
-                    <div class="clear"><input type="submit" value="Request" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
-                </form>
-            </div>
-        </div>
+<body data-spy="scroll" data-target=".main-nav">
+
+<!--Main Header-->
+<header class="main-header" id="home">
+  <div class="overlay"></div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-11 col-md-offset-1">
+
+        <!--logo-->
+        <div class="logo"> <a href=""><img src="img/logo.png" alt="cloud"></a></div>
+        <!--logo end-->
+
+      </div>
     </div>
+    <div class="row">
+      <div class="col-md-5 col-md-offset-1">
+        <div class="head-hero">
+          <!--welcome message-->
+
+          <h1 class="slideInDown animated">Kax App <span class="highlight">Lanching</span> soon</h1>
+
+          <!--welcome message end-->
+
+          <!--Subscription Form-->
+          <div class="subscribe">
+
+            <!--sub-form-->
+            <div class="slide-left slideInLeft animated sub-form" data-plugin-options='{"reverse":true}'>
+              <form role="form" id="mc-form" action="http://test.us3.list-manage1.com/subscribe/post-json?u=9666c25a337f497687875a388&amp;id=fa41845374&amp;c=?">
+                <div class="input-group">
+                  <input type="email" class="form-control" placeholder="Email Address" required value="" name="EMAIL">
+                  <span class="input-group-btn">
+                  <button type="submit" class="btn btn-default button" id="mc-subscribe" value="Subscribe" name="subscribe">Request Invite</button>
+                  </span> </div>
+              </form>
+              <p id="mc-notification"></p>
+            </div>
+            <!--sub-form end-->
+
+          </div>
+          <!--Subscription Form end-->
+
+        </div>
+      </div>
+      <div class="col-md-5 col-md-offset-1 visible-md visible-lg over-hide"> <img src="img/iphone.png" alt="App Image" class="slide-right slideInRight animated hero-img" data-plugin-options='{"reverse":true, "offset":-100}'> </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+
+        <!--social-->
+
+        <ul class="social text-center">
+          <li><a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter"></i></a></li>
+          <li><a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook"></i></a></li>
+          <li><a href="https://plus.google.com/" target="_blank"><i class="fa fa-google-plus"></i></a></li>
+        </ul>
+
+        <!--social end-->
+
+      </div>
+    </div>
+  </div>
+</header>
+<!--Main Header end-->
+
+<!--main navigation-->
+
+<nav role="navigation" class="main-nav visible-sm visible-md visible-lg">
+  <ul class="nav">
+    <li><a href="#home" class="text-hide" title="Home" data-placement="left">HOME</a></li>
+    <li><a href="#team" class="text-hide" title="Team" data-placement="left">TEAM</a></li>
+    <li><a href="#contact" class="text-hide" title="Contact" data-placement="left">CONTACT</a></li>
+  </ul>
+</nav>
+
+<!--main navigation end-->
+
+<!--Features-->
+
+<section class="features section-spacing" id="features">
+  <div class="container">
+    <h2 class="text-center">Features</h2>
+
+    <!--features slider-->
+    <div class="features-slider">
+
+      <!--features content 1-->
+
+      <div>
+        <div class="row">
+          <div class="col-md-7">
+            <!--app features container-->
+            <div class="features-container">
+              <div class="slide-left app-features row">
+                <div class="col-md-3 col-md-offset-1 col-sm-3 col-xs-3 text-center"><img src="img/icon-1.png" alt="App Features"></div>
+                <div class="col-md-8 col-sm-9 col-xs-9">
+                  <h4>Fastest Chat</h4>
+                  <p>We have created on of the fastest chat which connect to your friend and family with lightening speed.</p>
+                </div>
+              </div>
+              <div class="slide-left app-features row">
+                <div class="col-md-3 col-md-offset-1 col-sm-3 col-xs-3 text-center"><img src="img/icon-2.png" alt="App Features"></div>
+                <div class="col-md-8 col-sm-9 col-xs-9">
+                  <h4>Topic based Chatting</h4>
+                  <p>Instead of old group and room concept with use tab based contect with which you are connect to muliple topics at the same time.</p>
+                </div>
+              </div>
+              <div class="slide-left app-features row">
+                <div class="col-md-3 col-md-offset-1 col-sm-3 col-xs-3 text-center"><img src="img/icon-3.png" alt="App Features"></div>
+                <div class="col-md-8 col-sm-9 col-xs-9">
+                  <h4>We love Security</h4>
+                  <p>We don't someone spy on you. For enterprise version you will get the complete highest security chat.</p>
+                </div>
+              </div>
+            </div>
+            <!--app features container end-->
+
+          </div>
+          <div class="col-md-5 text-center"> <img src="img/iphone.png" alt="App Feature img" class="slide-right"> </div>
+        </div>
+      </div>
+
+      <!--features content 1 end -->
+
+      <!--features content 2-->
+
+      <div>
+        <div class="row">
+          <div class="col-md-7">
+            <!--app features container-->
+            <div class="features-container">
+              <div class="app-features row">
+                <div class="col-md-3 col-md-offset-1 col-sm-3 col-xs-3 text-center"><img src="img/icon-4.png" alt="App Features"></div>
+                <div class="col-md-8 col-sm-9 col-xs-9">
+                  <h4>Connect from any where</h4>
+                  <p>We have application on Android, iOS, Windows Phone, OS X, Windows 8, Linux, Firefox OS, Blackberry and many other. All the things are in sync</p>
+                </div>
+              </div>
+              <div class="app-features row">
+                <div class="col-md-3 col-md-offset-1 col-sm-3 col-xs-3 text-center"><img src="img/icon-5.png" alt="App Features"></div>
+                <div class="col-md-8 col-sm-9 col-xs-9">
+                  <h4>Market Place</h4>
+                  <p>Market place for stickers, themes and sounds which you can send your friends.</p>
+                </div>
+              </div>
+              <div class="app-features row">
+                <div class="col-md-3 col-md-offset-1 col-sm-3 col-xs-3 text-center"><img src="img/icon-6.png" alt="App Features"></div>
+                <div class="col-md-8 col-sm-9 col-xs-9">
+                  <h4>100% Message Delivery</h4>
+                  <p>If you don't have internet we use SMS to send message. If the contact is not online we send mail.</p>
+                </div>
+              </div>
+            </div>
+            <!--app features container end-->
+
+          </div>
+          <div class="col-md-5 text-center"> <img src="img/iphone.png" alt="App Feature img"> </div>
+        </div>
+      </div>
+
+      <!--features content 2 end -->
+
+    </div>
+    <!--features slider end-->
+
+  </div>
+</section>
+
+<!--Features end-->
+
+<!-- contact-->
+<section class="contact section-spacing" id="contact">
+  <h2 class="text-center">Contact Us</h2>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 center-block">
+
+        <!--Contact form-->
+        <div id="form-messages"></div>
+        <form class="slide-right contact-form text-center" method="post" action="php/process.php" role="form" id="ajax-contact">
+          <div class="form-group">
+            <input class="form-control" type="text" name="name" id="name" placeholder="Full Name" required>
+          </div>
+          <div class="form-group">
+            <input type="email" name="email" class="form-control" id="email" placeholder="Email" required>
+          </div>
+          <div class="form-group">
+            <textarea name="message" class="form-control" id="message"  rows="4" placeholder="Message" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-default button">Submit</button>
+        </form>
+        <!--Contact form end-->
+
+      </div>
+    </div>
+  </div>
+</section>
+<!-- contact end-->
+
+<!--site-footer-->
+<footer class="site-footer section-spacing">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <p class="scroll-top"><a href="#"><i class="fa fa-chevron-up"></i></a></p>
+        <h3>Say Hi, Get In Touch</h3>
+        <!--social-->
+
+        <ul class="social">
+          <li class="slide-left"><a href="https://twitter.com/kaxapp" target="_blank"><i class="fa fa-twitter"></i></a></li>
+          <li class="slide-top"><a href="https://www.facebook.com/kaxapp" target="_blank"><i class="fa fa-facebook"></i></a></li>
+          <li class="slide-right"><a href="https://plus.google.com/+kaxapp" target="_blank"><i class="fa fa-google-plus"></i></a></li>
+        </ul>
+
+        <!--social end-->
+
+        <small>&copy; Copyright Ninjaas. All Rights Reserved.</small> </div>
+    </div>
+  </div>
+</footer>
+<!--site-footer end-->
+
+<script src="js/jquery-1.11.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.fadethis.min.js"></script>
+<script src="js/slick.min.js"></script>
+<script src="js/main.js"></script>
 </body>
 </html>
