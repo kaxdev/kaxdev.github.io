@@ -21,7 +21,7 @@
         $recipient = "contact@ninjaas.com";
 
         // Set the email subject.
-        $subject = "Kaxapp contact from $name";
+        $subject = "KitChat contact from $name";
 
 
         $email_content = "Name: $name\n";

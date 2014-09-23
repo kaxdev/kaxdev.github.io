@@ -2,7 +2,7 @@
 /* ==========================================================================
    General
    ========================================================================== */
-   
+
 html,
 body {
   height: 100%;
@@ -22,7 +22,7 @@ h4,
 h5,
 h6 { font-weight: 400; }
 
-a { color: #33b5e5; }
+a { color: #C80100; }
 
 a:hover {
   color: #0099cc;
@@ -46,7 +46,7 @@ li {
 /* ==========================================================================
    Header styles
    ========================================================================== */
-   
+
 
 
 .main-header {
@@ -61,7 +61,7 @@ li {
 .logo,
 .head-hero h1 { text-align: center; }
 
-.highlight { font-weight: 400; }
+.highlight { font-weight: 900;font-size:1.3em; }
 
 .overlay {
   position: absolute;
@@ -71,10 +71,10 @@ li {
   width: 100%;
   height: 100%;
   background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMTAwJSI+CiAgICA8c3RvcCBvZmZzZXQ9IjAlIiBzdG9wLWNvbG9yPSIjMDA5OWNjIiBzdG9wLW9wYWNpdHk9IjAuNSIvPgogICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjZmZjMTRkIiBzdG9wLW9wYWNpdHk9IjAuNSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
-  background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, rgba(0,153,204,0.5)), color-stop(100%, rgba(255,193,77,0.5)));
-  background: -webkit-linear-gradient(-45deg, rgba(0,153,204,0.5) 0%, rgba(255,193,77,0.5) 100%);
-  background: -webkit-linear-gradient(315deg, rgba(0,153,204,0.5) 0%, rgba(255,193,77,0.5) 100%);
-  background: linear-gradient(135deg, rgba(0,153,204,0.5) 0%, rgba(255,193,77,0.5) 100%);
+  background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, rgba(200,1,0,0.5)), color-stop(100%, rgba(255,193,77,0.5)));
+  background: -webkit-linear-gradient(-45deg, rgba(200,1,0,0.5) 0%, rgba(255,193,77,0.5) 100%);
+  background: -webkit-linear-gradient(315deg, rgba(200,1,0,0.5) 0%, rgba(255,193,77,0.5) 100%);
+  background: linear-gradient(135deg, rgba(200,1,0,0.5) 0%, rgba(255,193,77,0.5) 100%);
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#800099cc', endColorstr='#80ffc14d', GradientType=1 );
 }
 
@@ -90,7 +90,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#800099cc', e
 
 .button {
   color: #fff;
-  background: #33b5e5;
+  background: #C80100;
   border-radius: 5px;
   -webkit-transition: background .5s ease-in, border-color .5s ease-in;
   transition: background .5s ease-in, border-color .5s ease-in;
@@ -135,7 +135,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#800099cc', e
 
 .social a {
   color: #fff;
-  background: #33b5e5;
+  background: #C80100;
 }
 
 .social a:hover { background: #0099cc; }
@@ -143,7 +143,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#800099cc', e
 /* ==========================================================================
    Navigation
    ========================================================================== */
-   
+
 
 
 .main-nav {
@@ -160,7 +160,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#800099cc', e
   background: rgba(223, 223, 223, 0.89);
 }
 
-.main-nav .active a { background: #33b5e5; }
+.main-nav .active a { background: #C80100; }
 
 .nav>li.active>a:hover,
 .nav>li.active>a:focus {
@@ -171,7 +171,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#800099cc', e
 /* ==========================================================================
    Subscription Form
    ========================================================================== */
-   
+
 .center-block { float: none; }
 
 .subscribe { margin: 3.2em 0 4.8em; }
@@ -196,9 +196,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#800099cc', e
 /* ==========================================================================
    Features
    ========================================================================== */
-   
+
 .features,
-.contact { background: #242424; }
+.contact { background: #270B04; }
 
 .section-spacing { padding: 4.8em 0; }
 
@@ -218,7 +218,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#800099cc', e
 .site-footer h2:after {
   content: '';
   height: 1px;
-  background: #33b5e5;
+  background: #C80100;
   position: absolute;
   width: 100px;
   bottom: -.8em;
@@ -250,7 +250,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#800099cc', e
 
 .features .slick-dots li.slick-active button:before {
   opacity: 0.75;
-  color: #33b5e5;
+  color: #C80100;
 }
 
 /* ==========================================================================
@@ -258,7 +258,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#800099cc', e
    ========================================================================== */
 
 .team,
-.site-footer { background: #343434; }
+.site-footer { background: #6B453C; }
 
 .team h3,
 .team h2,
@@ -266,7 +266,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#800099cc', e
 
 .team-slider { margin-top: 3.2em; }
 
-.team .slick-dots li button:before { color: #33b5e5; }
+.team .slick-dots li button:before { color: #C80100; }
 
 .team-details {
   position: relative;
@@ -337,8 +337,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#800099cc', e
    ========================================================================== */
 
 .contact .form-control {
-  border-color: #242424;
-  background-color: #343434;
+  border-color: #270B04;
+  background-color: #6B453C;
   color: #ddd;
 }
 
@@ -357,7 +357,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#800099cc', e
 /* ==========================================================================
    footer
    ========================================================================== */
-   
+
 
 
 .site-footer h3 { margin-top: 0; }
@@ -369,7 +369,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#800099cc', e
 /* ==========================================================================
    scroll top
    ========================================================================== */
-   
+
 .scroll-top { margin-bottom: 0; }
 
 .scroll-top a {
@@ -393,7 +393,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#800099cc', e
 /* ==========================================================================
    Small devices (tablets, 768px and up)
    ========================================================================== */
-   
+
 @media (min-width: 768px) {
 
 .main-nav { top: 30%; }
@@ -406,9 +406,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#800099cc', e
 }
 
 /* ==========================================================================
-   Medium devices (desktops, 992px and up) 
+   Medium devices (desktops, 992px and up)
    ========================================================================== */
-   
+
 @media (min-width: 992px) {
 
 .main-nav { top: 40%; }
